@@ -1,0 +1,37 @@
+{
+  "categoryName": "Спорттовари",
+  "items": [
+    {
+      "id": 1,
+      "name": "Гантелі 2×5 кг",
+      "shortname": "dumb1",
+      "description": "Пара гантель для домашніх тренувань.",
+      "price": "899 грн",
+      "img": "https://place-hold.it/200x200?text=Dumbbells"
+    },
+    {
+      "id": 2,
+      "name": "Килимок для йоги",
+      "shortname": "mat1",
+      "description": "Не ковзає, підходить для фітнесу та йоги.",
+      "price": "349 грн",
+      "img": "https://place-hold.it/200x200?text=Mat"
+    },
+    {
+      "id": 3,
+      "name": "Скакалка Speed",
+      "shortname": "rope1",
+      "description": "Легка скакалка для кардіо тренувань.",
+      "price": "199 грн",
+      "img": "https://place-hold.it/200x200?text=Rope"
+    },
+    {
+      "id": 4,
+      "name": "Еспандер гумовий",
+      "shortname": "exp1",
+      "description": "Підходить для розминки та реабілітації.",
+      "price": "179 грн",
+      "img": "https://place-hold.it/200x200?text=Expander"
+    }
+  ]
+}
