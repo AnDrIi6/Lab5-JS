@@ -1,1 +1,38 @@
+{
+  "categoryName": "Гаджети",
+  "items": [
+    {
+      "id": 1,
+      "name": "Безпровідні навушники ProX",
+      "shortname": "ear1",
+      "description": "Lorem ipsum dolor sit amet, зручні для щоденного використання.",
+      "price": "1299 грн",
+      "img": "https://place-hold.it/200x200?text=ProX"
+    },
+    {
+      "id": 2,
+      "name": "Портативна колонка ZX",
+      "shortname": "sp1",
+      "description": "Гучний та чистий звук, компактний корпус.",
+      "price": "899 грн",
+      "img": "https://place-hold.it/200x200?text=Speaker"
+    },
+    {
+      "id": 3,
+      "name": "Повербанк 20000 мА·год",
+      "shortname": "pb1",
+      "description": "Велика ємність, підтримка fast-charge.",
+      "price": "749 грн",
+      "img": "https://place-hold.it/200x200?text=Powerbank"
+    },
+    {
+      "id": 4,
+      "name": "Смарт-годинник Active",
+      "shortname": "watch1",
+      "description": "Відстеження пульсу, кроків, сповіщення з телефону.",
+      "price": "1599 грн",
+      "img": "https://place-hold.it/200x200?text=Watch"
+    }
+  ]
+}
 
