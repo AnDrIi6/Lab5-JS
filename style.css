@@ -1,0 +1,93 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: #f5f5f5;
+}
+
+.top-bar {
+  background: #222;
+  color: #fff;
+  padding: 10px 20px;
+}
+
+.top-bar nav a {
+  color: #fff;
+  margin-right: 15px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.top-bar nav a:hover {
+  text-decoration: underline;
+}
+
+main {
+  padding: 20px;
+}
+
+#main-content h1 {
+  margin-top: 0;
+}
+
+.category-list ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.category-list li {
+  margin: 5px 0;
+}
+
+.category-list a {
+  color: #0077cc;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.category-list a:hover {
+  text-decoration: none;
+}
+
+.special-link {
+  margin-top: 15px;
+  display: inline-block;
+  cursor: pointer;
+  color: #d10000;
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-top: 15px;
+}
+
+.item {
+  width: 200px;
+  background: #fff;
+  border: 1px solid #ddd;
+  padding: 10px;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+
+.item img {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin-bottom: 8px;
+}
+
+.item h3 {
+  margin: 5px 0;
+  font-size: 16px;
+}
+
+.item p {
+  font-size: 14px;
+  margin: 5px 0 10px;
+}
+
+.item b {
+  color: #008000;
+}
