@@ -1,1 +1,29 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "name": "Гаджети",
+      "shortname": "tech",
+      "notes": "Lorem ipsum dolor sit amet."
+    },
+    {
+      "id": 2,
+      "name": "Одяг",
+      "shortname": "clothes",
+      "notes": ""
+    },
+    {
+      "id": 3,
+      "name": "Продукти",
+      "shortname": "food",
+      "notes": "Текст-заповнювач для опису категорії."
+    },
+    {
+      "id": 4,
+      "name": "Спорттовари",
+      "shortname": "sport",
+      "notes": ""
+    }
+  ]
+}
 
