@@ -2,25 +2,23 @@ const contentEl = document.getElementById("main-content");
 const homeLink = document.getElementById("home-link");
 const catalogLink = document.getElementById("catalog-link");
 
-// "Додому" – просто повертаємо початковий текст (оновлюємо контент)
 homeLink.addEventListener("click", () => {
   contentEl.innerHTML = `
     <h1>Лабораторна робота №5</h1>
     <p>
       Натисни <strong>«Каталог»</strong>, щоб завантажити перелік категорій
-      товарів без перезавантаження сторінки (Ajax + JSON).
+      товарів без перезавантаження сторінки.
     </p>
   `;
 });
 
-// "Каталог" – завантаження categories.json
 catalogLink.addEventListener("click", loadCategories);
 
 function loadCategories() {
   fetch("data/categories.json")
     .then((res) => res.json())
     .then((data) => {
-      // data.categories – масив категорій
+  
       let html = `<h2>Каталог</h2>`;
       html += `<div class="category-list"><ul>`;
 
@@ -52,7 +50,6 @@ function loadCategories() {
     });
 }
 
-// Завантаження конкретної категорії (JSON-файл по shortname)
 function loadCategory(shortname) {
   fetch(`data/${shortname}.json`)
     .then((res) => res.json())
@@ -81,7 +78,6 @@ function loadCategory(shortname) {
     });
 }
 
-// Specials – випадкова категорія
 function loadRandomCategory() {
   fetch("data/categories.json")
     .then((res) => res.json())
@@ -96,6 +92,5 @@ function loadRandomCategory() {
     });
 }
 
-// Робимо функцію доступною в глобальній області (бо виклик із HTML через onclick)
 window.loadCategory = loadCategory;
 window.loadRandomCategory = loadRandomCategory;
