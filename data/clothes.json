@@ -1,0 +1,37 @@
+{
+  "categoryName": "Одяг",
+  "items": [
+    {
+      "id": 1,
+      "name": "Худі Oversize",
+      "shortname": "hoodie1",
+      "description": "Тепле худі, унісекс, декілька кольорів.",
+      "price": "999 грн",
+      "img": "https://place-hold.it/200x200?text=Hoodie"
+    },
+    {
+      "id": 2,
+      "name": "Футболка Basic",
+      "shortname": "tshirt1",
+      "description": "Класична футболка з бавовни.",
+      "price": "299 грн",
+      "img": "https://place-hold.it/200x200?text=T-Shirt"
+    },
+    {
+      "id": 3,
+      "name": "Джинси Slim",
+      "shortname": "jeans1",
+      "description": "Приталені джинси середньої посадки.",
+      "price": "799 грн",
+      "img": "https://place-hold.it/200x200?text=Jeans"
+    },
+    {
+      "id": 4,
+      "name": "Кепка Street",
+      "shortname": "cap1",
+      "description": "Регулювання розміру, універсальний стиль.",
+      "price": "249 грн",
+      "img": "https://place-hold.it/200x200?text=Cap"
+    }
+  ]
+}
