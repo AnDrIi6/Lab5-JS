@@ -1,0 +1,37 @@
+{
+  "categoryName": "Продукти",
+  "items": [
+    {
+      "id": 1,
+      "name": "Кава зернова 1 кг",
+      "shortname": "coffee1",
+      "description": "Ароматна кава, середнє обсмаження.",
+      "price": "399 грн",
+      "img": "https://place-hold.it/200x200?text=Coffee"
+    },
+    {
+      "id": 2,
+      "name": "Сир твердий 300 г",
+      "shortname": "cheese1",
+      "description": "Класичний твердий сир, 45% жирності.",
+      "price": "129 грн",
+      "img": "https://place-hold.it/200x200?text=Cheese"
+    },
+    {
+      "id": 3,
+      "name": "Шоколад чорний 90 г",
+      "shortname": "choco1",
+      "description": "72% какао, без доданих ароматизаторів.",
+      "price": "49 грн",
+      "img": "https://place-hold.it/200x200?text=Chocolate"
+    },
+    {
+      "id": 4,
+      "name": "Мигдаль 200 г",
+      "shortname": "almond1",
+      "description": "Свіжий ядровий мигдаль, без солі.",
+      "price": "159 грн",
+      "img": "https://place-hold.it/200x200?text=Almonds"
+    }
+  ]
+}
